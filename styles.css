@@ -1,0 +1,39 @@
+body {
+    background-image: radial-gradient(#804000, #4d2600, #331a00 );
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'lumos', sans-serif;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'lumos';
+    src: url('fonts/lumos.ttf') format('truetype');
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.score {
+    font-size: 2em;
+    margin-top: -50px;
+}
+
+.grid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 375x;
+    width: 450px;
+    cursor: pointer;
+
+}
+
+img {
+    border-radius: 20px;
+    border: rgb(31, 27, 27) 3px solid;
+    margin: 0.2rem;
+}
+
+
